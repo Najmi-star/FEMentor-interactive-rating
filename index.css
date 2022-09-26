@@ -1,16 +1,22 @@
 .attribution {
-    font-size: 11px;
+    font-size: 15px;
     text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    width: -webkit-fill-available;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: hsl(25, 97%, 53%)
 }
 
-html, body {
+html,
+body {
     width: 100vw;
     height: 100vh;
     background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
 }
 
 .content-box {
@@ -41,6 +47,12 @@ html, body {
     width: 100%;
     height: 30px;
     border-radius: 25px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
 }
 
 .rate-number {
@@ -54,26 +66,61 @@ html, body {
     color: white;
 }
 
-p, .rate-number p {
+p,
+.rate-number p {
     color: hsl(217, 12%, 63%);
 }
 
-.rate-number div, .icon-box {
+.rate-number div,
+.icon-box {
     border-radius: 20px;
     width: 40px;
-    height: 40px;
+    height: 28px;
     background-color: hsl(224, 7%, 29%);
     text-align: center;
+    padding-block-start: 9px;
 }
 
 .rate-number p {
     margin-top: 10px;
 }
 
-/* .icon-box {
-    border-radius: 20px;
-    width: 30px;
-    height: 30px;
+.tick-box {
+    background-color: hsl(25, 97%, 53%)!important;
+    color: white!important;
+}
+
+.tick-text,
+.rate-number p:hover {
+    color: white;
+}
+
+.rate-number div:hover {
+    /* background-color: hsl(25, 97%, 53%); */
+    background-color: hsl(216, 12%, 54%);
+    cursor: pointer;
+    color: white
+}
+
+.rate-number div {
+    color: hsl(217, 12%, 63%);
+}
+
+.hide {
+    display: none;
+}
+
+.rate-text-box {
+    align-self: center;
+    color: hsl(25, 97%, 53%);
     background-color: hsl(224, 7%, 29%);
-    text-align: center;
+    width: 172px;
+    border-radius: 15px;
+    height: 25px;
+    text-align-last: center;
+    padding-block-start: 5px;
+}
+
+/* .rate-number p:hover {
+    color: white;
 } */
