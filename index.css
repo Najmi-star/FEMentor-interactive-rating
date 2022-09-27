@@ -114,11 +114,11 @@ p,
     align-self: center;
     color: hsl(25, 97%, 53%);
     background-color: hsl(224, 7%, 29%);
-    width: 172px;
+    width: 200px;
     border-radius: 15px;
     height: 25px;
     text-align-last: center;
-    padding-block-start: 5px;
+    padding-block-start: 6px;
 }
 
 /* .rate-number p:hover {
